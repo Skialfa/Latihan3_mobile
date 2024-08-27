@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:background="#22FF">
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Open..."/>
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Ctrl + O"/>
+        </TableRow>
+        <TableRow
+            android:background="#0FF">
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="X"/>
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Import"/>
+        </TableRow>
+        <TableRow
+            android:background="#ffff">
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="Quit"/>
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Esc"/>
+        </TableRow>
+        <TableRow
+            android:background="#0FF">
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="copy"/>
+
+            <TextView
+                android:gravity="right"
+                android:padding="3dip"
+                android:text="Ctrl + C"/>
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
